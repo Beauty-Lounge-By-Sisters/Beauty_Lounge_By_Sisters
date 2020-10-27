@@ -1,0 +1,55 @@
+.cont{
+    
+height: 110vh;
+display: flex;
+box-shadow: 0 0 20px #343a40;
+flex-direction: column;
+justify-content: center;
+justify-content: space-evenly;
+align-items: center;
+padding: 15px;
+
+}
+
+
+.had1 { 
+
+
+    text-align: center;
+    
+   
+}
+.had1 h2{
+
+
+font-weight: bold;
+
+}
+.had1 p{
+font-family: cursive;
+font-style: italic;
+
+
+}
+
+@media only screen and (min-height: 300px) {
+    
+
+    .cont{
+
+   height: 150vh;
+
+    }
+  }
+
+  @media only screen and (min-height: 1000px){
+
+
+
+.cont{
+
+    height: 70vh;
+}
+
+
+  }
